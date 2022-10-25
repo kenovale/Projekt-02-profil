@@ -14,8 +14,96 @@ tlačítko facebook         #3b5998
 tlačítko twitter          #1da1f2
 */
 
-
 body {
-  background-color: #bdc3c7;
+    background-color: #bdc3c7;
+    margin: 0;
+    padding-top: 40px;
+    margin-left: 40px;
+  }
+
+.profil{
+    background-color: #31363b;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.foto {
+    width: 300px;
 }
 
+.logo {
+    background-color: #b92e81;
+    border-radius: 50%;
+    position: absolute;
+    top: 210px;
+    left: 270px;
+}
+
+.obsah {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #9FB0B7;
+    line-height: 1.5;
+    padding: 20px 30px;
+}
+
+.jmeno {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+    color: white;
+}
+
+.odkazy {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9FB0B7;
+    border-top: 1px solid #3f464d;
+    padding: 10px 20px;
+}
+
+.portfolio a {
+    width: 300px;
+}
+
+.facebook a {
+    width: 150px;
+    border-right: 1px solid #3f464d;
+}
+
+.twitter a {
+    width: 150px;
+}
+
+a:hover {
+    color: white;
+}
+
+.portfolio a:hover {
+    background-color: #e74c3c;
+}
+
+.facebook a:hover {
+    background-color: #3b5998;
+}
+
+.twitter a:hover {
+    background-color: #1da1f2;
+}
